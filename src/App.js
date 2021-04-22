@@ -17,6 +17,7 @@ function App() {
         >
           Learn React
         </a>
+        <img alt='' src={'che1.png'}></img>
       </header>
     </div>
   );
