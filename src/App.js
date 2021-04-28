@@ -1,24 +1,37 @@
 import logo from './logo.svg';
 import './App.css';
+import FooterContainer from './components/Footer';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+
+      <Navbar/>  
+
+      <header className="App-header">        
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Sitio en construcción.
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://www.instagram.com/cherryalmohadillas/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Contactanos
         </a>
-        <img alt='' src={'che1.png'}></img>
       </header>
+
+      <body>
+        ACA VIENE EL BODY?
+      </body>
+
+      <FooterContainer>
+
+      </FooterContainer>
+
     </div>
   );
 }
