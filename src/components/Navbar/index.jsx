@@ -1,4 +1,6 @@
+import $ from "jquery";
 import './index.css'
+
 const Navbar = () => {
     return (
         <div id='pepe'>

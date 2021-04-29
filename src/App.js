@@ -1,12 +1,15 @@
 import logo from './logo.svg';
+import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css';
+
 import FooterContainer from './components/Footer';
 import Navbar from './components/Navbar';
+import ContentContainer from './components/Content';
 
 function App() {
   return (
     <div className="App">
-
+      
       <Navbar/>  
 
       <header className="App-header">        
@@ -24,9 +27,8 @@ function App() {
         </a>
       </header>
 
-      <body>
-        ACA VIENE EL BODY?
-      </body>
+
+      <ContentContainer/>
 
       <FooterContainer>
 

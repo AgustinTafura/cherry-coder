@@ -1,4 +1,7 @@
+import $ from "jquery";
 import './index.css'
+
+
 const FooterContainer = () => {
     return (
         <div id='lala'>
