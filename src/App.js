@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import 'bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap/dist/js/bootstrap.bundle'
 import './App.css';
 
 import FooterContainer from './components/Footer';
@@ -30,9 +31,7 @@ function App() {
 
       <ContentContainer/>
 
-      <FooterContainer>
-
-      </FooterContainer>
+      <FooterContainer/>
 
     </div>
   );

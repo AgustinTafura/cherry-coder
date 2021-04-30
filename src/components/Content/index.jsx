@@ -4,11 +4,11 @@ import './index.css'
 
 const ContentContainer = () => {
     return (
-        <body>
+
             <div id= 'oo'>
             HOLA SOY EL BODY
             </div>
-        </body>
+
     )
 }
 
