@@ -1,46 +1,32 @@
-import $ from "jquery";
-import './index.css'
+import logo from '../../assets/imagenes/logo.png';
 
-const Navbar = () => {
-    const sections = [
-        'Que son',
-        'Modo de Uso',
-        'Como comprar',
-        'Mayoristas',
-        'Contacto'
+const Navbar = () => { 
+        const sections = [
+        'Home',
+        'Productos'
     ]
 
-
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-light ">
-            <a className="navbar-brand" href="#">Logo?</a>
-            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span className="navbar-toggler-icon"></span>
+        <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
+            <div class="container-fluid">
+            <img class="logoNav" src={logo} alt="Cherry" />
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
             </button>
-
-            <div className="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
-                <ul className="navbar-nav">
-                    {
-                        sections.map((section, index)=>{
-                            
-                            return(
-
-                                <li key={index} className="nav-item">
-                                    <a className="nav-link" href="#">{section}</a>
-                                </li>
-
-                            )
-
-                        })
-                    }
-
+            <div class="collapse navbar-collapse textoMenu" id="navbarCollapse">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                {
+                    sections.map((section, index)=>{
+                        return(
+                            <li key={index} className="nav-item">
+                                <a className="nav-link" href="#">{section}</a>
+                            </li>
+                        )
+                    })
+                }
                 </ul>
             </div>
-
-            <div className='d-none d-lg-block '>   
-                <a href=""><i class="fab fa-instagram"></i></a>
-                <a href=""><i class="fab fa-whatsapp"></i></a> 
             </div>
         </nav>
     )
