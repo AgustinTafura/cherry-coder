@@ -1,12 +1,15 @@
-/* GLOBAL STYLES
--------------------------------------------------- */
+/* GLOBAL STYLES -------------------------------------------------- */
+
+:root {
+  --primary: #867c9d;
+}
 /* Padding below the footer and lighter body text */
 
-body {
+/* body {
   padding-top: 3rem;
   padding-bottom: 3rem;
   color: #5a5a5a;
-}
+} */
 
 /* MENU SYLES */
 

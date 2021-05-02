@@ -1,12 +1,9 @@
-
-import destacado1 from '../../assets/imagenes/destacado1.jpg';
-
-const ContentContainer = () => {
+const SectionsContainer = () => {
     return (
         <div class="container marketing">
             <div class="row">
                 <div class="col-lg-4">
-                    <img class="bd-placeholder-img rounded-circle" width="140" height="140" src={destacado1}
+                    <img class="bd-placeholder-img rounded-circle" width="140" height="140" src={''}
                      aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"/>
                     <title>Placeholder</title>
                     <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777" dy=".3em"></text>
@@ -104,4 +101,4 @@ const ContentContainer = () => {
 }
 
 
-export default ContentContainer
+export default SectionsContainer
