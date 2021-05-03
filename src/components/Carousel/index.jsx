@@ -1,65 +1,31 @@
 import imagen1 from '../../assets/imagenes/imagen1.jpg';
 import imagen2 from '../../assets/imagenes/imagen2.jpg';
 import imagen3 from '../../assets/imagenes/imagen3.jpg';
-
-
-const Carousel = () => { 
-    return (
-    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true"
-            aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img class="bd-placeholder-img" width="100%" height="100%" src={imagen1} aria-hidden="true"
-              preserveAspectRatio="xMidYMid slice" focusable="false" alt=""/>
-            <rect width="100%" height="100%" fill="#777" />
-            <div class="container">
-              {/* <div class="carousel-caption text-start">
-                <h1>Example headline.</h1>
-                <p>Some representative placeholder content for the first slide of the carousel.</p>
-                <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
-              </div>  */}
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img class="bd-placeholder-img" width="100%" height="100%" src={imagen2} aria-hidden="true"
-              preserveAspectRatio="xMidYMid slice" focusable="false"/>
-            <rect width="100%" height="100%" fill="#777" />
-            <div class="container">
-              {/* <div class="carousel-caption">
-                <h1>Another example headline.</h1>
-                <p>Some representative placeholder content for the second slide of the carousel.</p>
-                <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
-              </div>  */}
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img class="bd-placeholder-img" width="100%" height="100%" src={imagen3} aria-hidden="true"
-              preserveAspectRatio="xMidYMid slice" focusable="false"/>
-            <rect width="100%" height="100%" fill="#777" />
-            <div class="container">
-              {/* <div class="carousel-caption text-end">
-                <h1>One more for good measure.</h1>
-                <p>Some representative placeholder content for the third slide of this carousel.</p>
-                <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
-              </div>  */}
-            </div>
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-    </div>
-    )
+import { Carousel } from 'react-bootstrap';
+ 
+const CherryCarousel = () => {
+  return (
+    <Carousel>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src={imagen1}
+        />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src={imagen2}
+        />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src={imagen3}
+        />
+      </Carousel.Item>
+    </Carousel>
+  )
 }
-
-export default Carousel
+ 
+export default CherryCarousel

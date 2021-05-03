@@ -4,7 +4,7 @@ import './App.css';
 import FooterContainer from './components/Footer';
 import Navbar from './components/Navbar';
 import ContentContainer from './components/Content';
-import Carousel from './components/Carousel';
+import CherryCarousel from './components/Carousel';
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
         <Navbar/>  
       </header>
       <main>
-        <Carousel/>
+        <CherryCarousel/>
         <ContentContainer/>
         <FooterContainer/>
       </main>
