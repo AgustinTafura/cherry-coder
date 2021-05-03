@@ -12,13 +12,11 @@ function App() {
       <header>
         <Navbar/>  
       </header>
-
       <main>
         <Carousel/>
         <ContentContainer/>
         <FooterContainer/>
       </main>
-
     </div>
   );
 }
