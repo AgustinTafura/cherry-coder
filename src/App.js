@@ -5,6 +5,7 @@ import './App.css';
 import FooterContainer from './components/Footer';
 import Navbar from './components/Navbar';
 import SectionContainer from './components/Content';
+import ContactBubble from './components/ContactBubble';
 
 function App() {
   return (
@@ -14,11 +15,10 @@ function App() {
       </header>
 
       <main>
-
-        {/* <SectionContainer/> */}
+        <SectionContainer/>
       </main>
       <FooterContainer/>
-
+      <ContactBubble/>
     </div>
   );
 }
