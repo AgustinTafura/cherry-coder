@@ -5,7 +5,6 @@ import './App.css';
 import FooterContainer from './components/Footer';
 import Navbar from './components/Navbar';
 import SectionContainer from './components/Content';
-import Carousel from './components/Carousel';
 
 function App() {
   return (
@@ -16,10 +15,9 @@ function App() {
 
       <main>
 
-        <Carousel/>
-        <SectionContainer/>
-        <FooterContainer/>
+        {/* <SectionContainer/> */}
       </main>
+      <FooterContainer/>
 
     </div>
   );
