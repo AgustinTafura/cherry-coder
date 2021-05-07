@@ -11,8 +11,7 @@ const ContentContainer = () => {
                     <title>Placeholder</title>
                     <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777" dy=".3em"></text>
                     <h2>Heading</h2>
-                    <p>Some representative placeholder content for the three columns of text below the carousel. This is the first
-                    column.</p>
+                    <p>Some representative placeholder content for the three columns of text below the carousel. </p>
                     <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
                 </div>
                 <div class="col-lg-4">

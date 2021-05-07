@@ -1,21 +1,21 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css';
-
 import FooterContainer from './components/Footer';
 import Navbar from './components/Navbar';
 import ContentContainer from './components/Content';
 import CherryCarousel from './components/Carousel';
 
+
 function App() {
   return (
     <div className="App">
       <header>
-        <Navbar/>  
+        <Navbar />
       </header>
       <main>
-        <CherryCarousel/>
-        <ContentContainer/>
-        <FooterContainer/>
+        <CherryCarousel />
+        <ContentContainer />
+        <FooterContainer />
       </main>
     </div>
   );
