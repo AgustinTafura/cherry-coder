@@ -4,7 +4,7 @@ import destacado1 from '../../assets/imagenes/destacado1.jpg';
 const ContentContainer = () => {
     return (
         <div class="container marketing">
-            <div class="row">
+            {/* <div class="row">
                 <div class="col-lg-4">
                     <img class="bd-placeholder-img rounded-circle" width="140" height="140" src={destacado1}
                      aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"/>
@@ -39,7 +39,7 @@ const ContentContainer = () => {
                     <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
                 </div>
             </div>
-            <hr class="featurette-divider"/>
+            <hr class="featurette-divider"/> */}
     
             <div class="row featurette">
                 <div class="col-md-7">
