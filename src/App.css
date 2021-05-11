@@ -203,7 +203,8 @@ img.logoNav {
   }
 
   .textoHorizontal {
-    padding: 0px 0px 0px 50px;
+    padding: 0px 0px 0px 20px;
+    margin: 0px 10px 0px 10px;
   }
 
   .texto {
@@ -211,9 +212,7 @@ img.logoNav {
     transform: rotate(0deg);
     color: rgb(71, 69, 69);
     font-size: 100%;
-    padding-top: 75px;
-    padding-left: 35px;
-    padding-bottom: 10px;
+    padding: 70px 0px 10px 35px;
   }
 
 }
@@ -246,15 +245,14 @@ img.logoNav {
   }
 
   .textoHorizontal {
-    padding: 0px 0px 0px 40px;
+    padding: 0px 0px 0px 20px;
+    margin: 0px 10px 0px 10px;
   }
   .texto {
     writing-mode: horizontal-tb;
     transform: rotate(0deg);
     color: rgb(71, 69, 69);
     font-size: 100%;
-    padding-top: 75px;
-    padding-left: 35px;
-    padding-bottom: 10px;
+    padding: 70px 0px 10px 35px;
   }
 }
