@@ -1,34 +1,60 @@
-import logo from '../../assets/imagenes/logo.png';
+import $ from "jquery";
+import './index.css'
 
-const Navbar = () => { 
-        const sections = [
-        'Home',
-        'Productos'
+const Navbar = () => {
+    const sections = [
+        'que-son',
+        'modo-de-uso',
+        'como-comprar',
+        'mayoristas',
+        'contacto'
     ]
 
+ 
+    const scrollToSection = (e)=>{
+        e.preventDefault()
+        var elem = e.nativeEvent.target
+        $('.navbar-toggler').click()
+        window.scrollTo({ top: ($(elem.hash)).offset().top - 80, behavior: 'smooth' })
+        console.log(e)
+    }
+
     return (
-        <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
-            <div class="container-fluid">
-            <img class="logoNav" src={logo} alt="Cherry" />
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
-                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse textoMenu" id="navbarCollapse">
-                <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                {
-                    sections.map((section, index)=>{
-                        return(
-                            <li key={index} className="nav-item">
-                                <a className="nav-link" href="#">{section}</a>
-                            </li>
-                        )
-                    })
-                }
-                </ul>
-            </div>
-            </div>
-        </nav>
+        <>
+            <nav className="container-fluid">
+                <div className="navbar navbar-expand-lg navbar-light row no-gutters container-fluid fixed-top bg-white shadow-sm">
+                    <a className="navbar-brand col-1" href="#"><img id="nav-logo" src="/assets/img/logo2.png" alt=""/></a>
+                    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span className="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div className="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+                        <ul className="navbar-nav ">
+                            {
+                                sections.map((section, index)=>{
+                                    
+                                    return(
+
+                                        <li key={index} className="nav-item text-center p-1 m-lg-3 text-nowrap">
+                                            <a onClick={scrollToSection} className="" href={`#${section}`}>{section.replaceAll('-', ' ')}</a>
+                                        </li>
+
+                                    )
+
+                                })
+                            }
+
+                        </ul>
+                    </div>
+
+                    <div className='social-media d-none d-lg-block col-1 text-center'>   
+                        <a href="" className="m-2 h4"><i className="fab fa-instagram"></i></a>
+                        <a href="" className="m-2 h4"><i className="fab fa-whatsapp"></i></a> 
+                    </div>
+                </div>
+            </nav>
+        </>
     )
 }
 

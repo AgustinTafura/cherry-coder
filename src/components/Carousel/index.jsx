@@ -1,9 +1,3 @@
-import imagen1 from '../../assets/imagenes/imagen1.jpg';
-import imagen2 from '../../assets/imagenes/imagen2.jpg';
-import imagen3 from '../../assets/imagenes/imagen3.jpg';
-import imagenc1 from '../../assets/imagenes/imagenc1.jpg';
-import imagenc2 from '../../assets/imagenes/imagenc2.jpg';
-import imagenc3 from '../../assets/imagenes/imagenc3.jpg';
 import { Carousel } from 'react-bootstrap';
 
 const CherryCarousel = () => {
@@ -23,19 +17,19 @@ const CherryCarousel = () => {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src={imagen1}
+              src="/assets/img/imagen1.jpg"
             />
           </Carousel.Item>
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src={imagen2}
+              src='/assets/img/imagen2.jpg'
             />
           </Carousel.Item>
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src={imagen3}
+              src='/assets/img/imagen3.jpg'
             />
           </Carousel.Item>
         </Carousel>
@@ -45,19 +39,19 @@ const CherryCarousel = () => {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src={imagenc1}
+              src='/assets/img/imagenc1.jpg'
             />
           </Carousel.Item>
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src={imagenc2}
+              src='/assets/img/imagenc2.jpg'
             />
           </Carousel.Item>
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src={imagenc3}
+              src='/assets/img/imagenc3.jpg'
             />
           </Carousel.Item>
         </Carousel>

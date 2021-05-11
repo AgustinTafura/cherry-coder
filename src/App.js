@@ -1,10 +1,11 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap/dist/js/bootstrap.bundle'
 import './App.css';
 import FooterContainer from './components/Footer';
 import Navbar from './components/Navbar';
-import ContentContainer from './components/Content';
+import SectionContainer from './components/Content';
 import CherryCarousel from './components/Carousel';
-
+import ContactBubble from './components/ContactBubble';
 
 function App() {
   return (
@@ -14,9 +15,10 @@ function App() {
       </header>
       <main>
         <CherryCarousel />
-        <ContentContainer />
-        <FooterContainer />
+        <SectionContainer />
       </main>
+      <FooterContainer />
+      <ContactBubble />
     </div>
   );
 }
