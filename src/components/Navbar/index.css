@@ -5,20 +5,18 @@
 }
 
 
-
-
 /* Nav */
 
 ul {
     font-family: 'Poppins', sans-serif;
-    text-transform: uppercase;
-    
+    text-transform: uppercase; 
 }
 
 
 ul a {
     color: black;
     color: #b9b0d1 !important;
+
 }
 
 /* ul li:hover  {
@@ -30,11 +28,7 @@ ul a:hover  {
     color: #71668a !important;
     /* text-shadow: -1.2px 0px 0px #71668a,-1.2px 0px 0px #71668a; */
     font-weight: bold;
-
 }
-
-
-
 
 /* SocialMedia */
 
