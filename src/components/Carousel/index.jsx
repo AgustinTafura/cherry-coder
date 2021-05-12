@@ -15,7 +15,7 @@ const CherryCarousel = () => {
       <div className="col-lg-7 carouselTamanio" id="carouselDesktop">
         <Carousel>
           <Carousel.Item>
-            {console.log(process.env.PUBLIC_URL)}
+            {console.log(process.env)}
             <img
               className="d-block w-100"
               src={`${process.env.PUBLIC_URL}/assets/img/imagen1.jpg`}

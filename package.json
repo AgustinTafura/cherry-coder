@@ -2,7 +2,7 @@
   "name": "cherry-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://AgustinTafura.github.io/cherry-coder/",
+  "homepage": "https://AgustinTafura.github.io/cherry-coder",
   "dependencies": {
     "@popperjs/core": "^2.9.2",
     "@testing-library/jest-dom": "^5.11.10",
