@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/cherry-coder/static/css/main.3af6ee57.chunk.css",
-    "main.js": "/cherry-coder/static/js/main.5b565e58.chunk.js",
-    "main.js.map": "/cherry-coder/static/js/main.5b565e58.chunk.js.map",
+    "main.js": "/cherry-coder/static/js/main.d600dfac.chunk.js",
+    "main.js.map": "/cherry-coder/static/js/main.d600dfac.chunk.js.map",
     "runtime-main.js": "/cherry-coder/static/js/runtime-main.d3f2b5ce.js",
     "runtime-main.js.map": "/cherry-coder/static/js/runtime-main.d3f2b5ce.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/cherry-coder/static/css/2.4c97ca4f.chunk.css",
@@ -20,6 +20,6 @@
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.34b1b29a.chunk.js",
     "static/css/main.3af6ee57.chunk.css",
-    "static/js/main.5b565e58.chunk.js"
+    "static/js/main.d600dfac.chunk.js"
   ]
 }
