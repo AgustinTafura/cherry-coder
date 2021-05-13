@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/cherry-coder/static/css/main.3af6ee57.chunk.css",
-    "main.js": "/cherry-coder/static/js/main.d600dfac.chunk.js",
-    "main.js.map": "/cherry-coder/static/js/main.d600dfac.chunk.js.map",
-    "runtime-main.js": "/cherry-coder/static/js/runtime-main.d3f2b5ce.js",
-    "runtime-main.js.map": "/cherry-coder/static/js/runtime-main.d3f2b5ce.js.map",
+    "main.css": "/cherry-coder/static/css/main.ef971e27.chunk.css",
+    "main.js": "/cherry-coder/static/js/main.82f56a93.chunk.js",
+    "main.js.map": "/cherry-coder/static/js/main.82f56a93.chunk.js.map",
+    "runtime-main.js": "/cherry-coder/static/js/runtime-main.d8606ba4.js",
+    "runtime-main.js.map": "/cherry-coder/static/js/runtime-main.d8606ba4.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/cherry-coder/static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.34b1b29a.chunk.js": "/cherry-coder/static/js/2.34b1b29a.chunk.js",
-    "static/js/2.34b1b29a.chunk.js.map": "/cherry-coder/static/js/2.34b1b29a.chunk.js.map",
-    "static/js/3.2cddcac0.chunk.js": "/cherry-coder/static/js/3.2cddcac0.chunk.js",
-    "static/js/3.2cddcac0.chunk.js.map": "/cherry-coder/static/js/3.2cddcac0.chunk.js.map",
+    "static/js/2.5ea30f64.chunk.js": "/cherry-coder/static/js/2.5ea30f64.chunk.js",
+    "static/js/2.5ea30f64.chunk.js.map": "/cherry-coder/static/js/2.5ea30f64.chunk.js.map",
+    "static/js/3.2a1c4672.chunk.js": "/cherry-coder/static/js/3.2a1c4672.chunk.js",
+    "static/js/3.2a1c4672.chunk.js.map": "/cherry-coder/static/js/3.2a1c4672.chunk.js.map",
     "index.html": "/cherry-coder/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/cherry-coder/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.3af6ee57.chunk.css.map": "/cherry-coder/static/css/main.3af6ee57.chunk.css.map",
-    "static/js/2.34b1b29a.chunk.js.LICENSE.txt": "/cherry-coder/static/js/2.34b1b29a.chunk.js.LICENSE.txt"
+    "static/css/main.ef971e27.chunk.css.map": "/cherry-coder/static/css/main.ef971e27.chunk.css.map",
+    "static/js/2.5ea30f64.chunk.js.LICENSE.txt": "/cherry-coder/static/js/2.5ea30f64.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.d3f2b5ce.js",
+    "static/js/runtime-main.d8606ba4.js",
     "static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.34b1b29a.chunk.js",
-    "static/css/main.3af6ee57.chunk.css",
-    "static/js/main.d600dfac.chunk.js"
+    "static/js/2.5ea30f64.chunk.js",
+    "static/css/main.ef971e27.chunk.css",
+    "static/js/main.82f56a93.chunk.js"
   ]
 }
