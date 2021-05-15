@@ -65,7 +65,7 @@ const EmailAndIG = () => {
               <i className="fab fa-instagram"></i>
             </div>
             <div className='col-10'>
-              <div>seguinos en instagram</div>
+              <div>seguinos en</div>
               <div>@cherryalmohadillas</div>
             </div>
           </button>
