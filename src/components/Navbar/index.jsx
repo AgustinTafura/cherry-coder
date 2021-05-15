@@ -11,12 +11,12 @@ const Navbar = () => {
     ]
 
 
+
     const scrollToSection = (e) => {
         e.preventDefault()
         var elem = e.nativeEvent.target
-        $('.navbar-toggler').click()
+        window.innerWidth < 992 && $('.collapse').collapse('toggle')
         window.scrollTo({ top: ($(elem.hash)).offset().top - 80, behavior: 'smooth' })
-        console.log(e)
     }
 
     return (

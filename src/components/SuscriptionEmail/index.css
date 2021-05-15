@@ -1,0 +1,26 @@
+.suscription-section .row {
+    justify-content: center;
+    text-align: center;
+}
+
+.suscription-body {
+    background-color: #efefef;
+    margin-bottom: 5rem;
+    padding: 4rem 3rem 4rem 3rem;
+    font-size: 12px;
+}
+
+.suscription-body p {
+    margin-bottom: 3rem;
+}
+
+.suscription-body input {
+    margin-right: 1rem;
+    border: none;
+    height: 2rem;
+}
+
+.suscription-body button {
+    border-radius: 0;
+    font-size: 12px;
+}

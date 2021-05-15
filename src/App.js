@@ -6,7 +6,8 @@ import Navbar from './components/Navbar';
 import SectionContainer from './components/Content';
 import CherryCarousel from './components/Carousel';
 import ContactBubble from './components/ContactBubble';
-import EmailAndIG from './components/EmailAndIG';
+import InstagramCarousel from './components/InstagramCarousel';
+import SuscriptionEmail from './components/SuscriptionEmail';
 
 function App() {
   return (
@@ -15,9 +16,10 @@ function App() {
         <Navbar />
       </header>
       <main>
-        <CherryCarousel />
+        {/* <CherryCarousel /> */}
         <SectionContainer />
-        <EmailAndIG/>
+        <SuscriptionEmail/>
+        <InstagramCarousel/>
       </main>
       <FooterContainer />
       <ContactBubble />

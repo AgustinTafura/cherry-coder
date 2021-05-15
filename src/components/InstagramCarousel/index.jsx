@@ -4,11 +4,11 @@ import './index.css'
 import Slider from "react-slick";
 import { useState } from "react";
 
-const EmailAndIG = () => {
+const InstagramCarousel = () => {
 
   const images = ['imagen1.jpg', 'imagen2.jpg', 'imagen3.jpg', 'imagenc1.jpg', 'imagenc2.jpg', 'imagenc3.jpg', 'IMG_0023.JPG', 'IMG_0022.JPG', 'IMG_0024.JPG']
   //setea la cantidad de imagenes a mostrar en el carousell de instagram
-  const [slidesToShow, setSlidesToShow] = useState(false)
+  const [slidesToShow, setSlidesToShow] = useState(2)
   const quantitySlidesToShow = () => {
     window.innerWidth >= 1200 && setSlidesToShow(6)
     window.innerWidth >= 992 && window.innerWidth < 1200 && setSlidesToShow(5)
@@ -76,4 +76,4 @@ const EmailAndIG = () => {
   )
 }
 
-export default EmailAndIG
+export default InstagramCarousel
