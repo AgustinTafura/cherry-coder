@@ -6,7 +6,7 @@ import { useState } from "react";
 
 const EmailAndIG = () => {
 
-  const images = ['imagen1', 'imagen2', 'imagen3', 'imagenc1', 'imagenc2', 'imagenc3', 'IMG_0023', 'IMG_0022', 'IMG_0024']
+  const images = ['imagen1.jpg', 'imagen2.jpg', 'imagen3.jpg', 'imagenc1.jpg', 'imagenc2.jpg', 'imagenc3.jpg', 'IMG_0023.JPG', 'IMG_0022.JPG', 'IMG_0024.JPG']
   //setea la cantidad de imagenes a mostrar en el carousell de instagram
   const [slidesToShow, setSlidesToShow] = useState(false)
   const quantitySlidesToShow = () => {
@@ -48,7 +48,7 @@ const EmailAndIG = () => {
               <div className='image-container' >
 
                 <a href="https://www.instagram.com/cherryalmohadillas/">
-                  <img alt='' src={`${process.env.PUBLIC_URL}/assets/img/${img}.jpg`}></img>
+                  <img alt='' src={`${process.env.PUBLIC_URL}/assets/img/${img}`}></img>
                 </a>
 
                 <i className="fab fa-instagram"></i>
