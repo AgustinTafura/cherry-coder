@@ -6,6 +6,7 @@ import Navbar from './components/Navbar';
 import SectionContainer from './components/Content';
 import CherryCarousel from './components/Carousel';
 import ContactBubble from './components/ContactBubble';
+import EmailAndIG from './components/EmailAndIG';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <main>
         <CherryCarousel />
         <SectionContainer />
+        <EmailAndIG/>
       </main>
       <FooterContainer />
       <ContactBubble />

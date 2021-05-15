@@ -1,0 +1,66 @@
+#instagram-photos {
+    background-color: #d7bff6;
+    height: 25vh;
+    margin-bottom: 5rem;
+    position: relative;
+}
+
+.slick-slider {
+    height: inherit;
+    overflow: hidden;
+}
+
+.image-container {
+    position: relative;
+}
+
+#instagram-photos img {
+    width: 100%;
+    opacity: .4;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+#instagram-photos img:hover {
+    opacity: 1;
+}
+
+
+
+#instagram-photos .slick-slider .fa-instagram {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    color: white;
+}
+
+
+#button-ig {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    top: 45%;
+
+}
+
+#button-ig button {
+    color: white;
+    background-color: #6a6076;
+    border-radius: 0px;
+    display: inline-flex;
+    font-size: 12px;
+    text-transform: uppercase;
+    align-items: center;
+    font-weight: 200;
+    padding: 8px;
+}
+
+#button-ig i {
+    font-size: 2rem;
+}
+
+/* div {
+} */
