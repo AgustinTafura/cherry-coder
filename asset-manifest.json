@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/cherry-coder/static/css/main.7d5d4841.chunk.css",
-    "main.js": "/cherry-coder/static/js/main.5002762b.chunk.js",
-    "main.js.map": "/cherry-coder/static/js/main.5002762b.chunk.js.map",
-    "runtime-main.js": "/cherry-coder/static/js/runtime-main.a4ffb7ad.js",
-    "runtime-main.js.map": "/cherry-coder/static/js/runtime-main.a4ffb7ad.js.map",
+    "main.css": "/cherry-coder/static/css/main.53b9f474.chunk.css",
+    "main.js": "/cherry-coder/static/js/main.f59df644.chunk.js",
+    "main.js.map": "/cherry-coder/static/js/main.f59df644.chunk.js.map",
+    "runtime-main.js": "/cherry-coder/static/js/runtime-main.66fbbd7b.js",
+    "runtime-main.js.map": "/cherry-coder/static/js/runtime-main.66fbbd7b.js.map",
     "static/css/2.cfd30faf.chunk.css": "/cherry-coder/static/css/2.cfd30faf.chunk.css",
-    "static/js/2.bb96750a.chunk.js": "/cherry-coder/static/js/2.bb96750a.chunk.js",
-    "static/js/2.bb96750a.chunk.js.map": "/cherry-coder/static/js/2.bb96750a.chunk.js.map",
-    "static/js/3.854b3552.chunk.js": "/cherry-coder/static/js/3.854b3552.chunk.js",
-    "static/js/3.854b3552.chunk.js.map": "/cherry-coder/static/js/3.854b3552.chunk.js.map",
+    "static/js/2.bba6dcbd.chunk.js": "/cherry-coder/static/js/2.bba6dcbd.chunk.js",
+    "static/js/2.bba6dcbd.chunk.js.map": "/cherry-coder/static/js/2.bba6dcbd.chunk.js.map",
+    "static/js/3.3a5dc6de.chunk.js": "/cherry-coder/static/js/3.3a5dc6de.chunk.js",
+    "static/js/3.3a5dc6de.chunk.js.map": "/cherry-coder/static/js/3.3a5dc6de.chunk.js.map",
     "index.html": "/cherry-coder/index.html",
     "static/css/2.cfd30faf.chunk.css.map": "/cherry-coder/static/css/2.cfd30faf.chunk.css.map",
-    "static/css/main.7d5d4841.chunk.css.map": "/cherry-coder/static/css/main.7d5d4841.chunk.css.map",
-    "static/js/2.bb96750a.chunk.js.LICENSE.txt": "/cherry-coder/static/js/2.bb96750a.chunk.js.LICENSE.txt",
+    "static/css/main.53b9f474.chunk.css.map": "/cherry-coder/static/css/main.53b9f474.chunk.css.map",
+    "static/js/2.bba6dcbd.chunk.js.LICENSE.txt": "/cherry-coder/static/js/2.bba6dcbd.chunk.js.LICENSE.txt",
     "static/media/slick-theme.css": "/cherry-coder/static/media/slick.c94f7671.ttf"
   },
   "entrypoints": [
-    "static/js/runtime-main.a4ffb7ad.js",
+    "static/js/runtime-main.66fbbd7b.js",
     "static/css/2.cfd30faf.chunk.css",
-    "static/js/2.bb96750a.chunk.js",
-    "static/css/main.7d5d4841.chunk.css",
-    "static/js/main.5002762b.chunk.js"
+    "static/js/2.bba6dcbd.chunk.js",
+    "static/css/main.53b9f474.chunk.css",
+    "static/js/main.f59df644.chunk.js"
   ]
 }
