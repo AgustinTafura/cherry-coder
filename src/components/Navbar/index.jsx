@@ -5,7 +5,7 @@ const Navbar = () => {
     const sections = [
         'que-son',
         'modo-de-uso',
-        'como-comprar',
+        'modelos',
         'mayoristas',
         'contacto'
     ]
@@ -29,14 +29,14 @@ const Navbar = () => {
                         <span className="navbar-toggler-icon"></span>
                     </button>
 
-                    <div className="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
-                        <ul className="navbar-nav ">
+                    <div className="collapse navbar-collapse justify-content-center " id="navbarSupportedContent">
+                        <ul className="navbar-nav col-lg-8">
                             {
                                 sections.map((section, index) => {
 
                                     return (
 
-                                        <li key={index} className="nav-item text-center p-1 m-lg-3 text-nowrap">
+                                        <li key={index} className="nav-item text-center p-1 m-lg-3 text-nowrap  col-lg-2 ">
                                             <a onClick={scrollToSection} className="" href={`#${section}`}>{section.replaceAll('-', ' ')}</a>
                                         </li>
 
