@@ -3,6 +3,7 @@
 :root {
   --primary: #867c9d;
 }
+
 /* Padding below the footer and lighter body text */
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&display=swap');
@@ -41,12 +42,13 @@ img.logoNav {
 }
 
 #carouselDesktop {
-  display:block;
+  display: block;
 }
 
 #carouselMobile {
   display: none;
 }
+
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
   bottom: 3rem;
@@ -196,9 +198,9 @@ img.logoNav {
   }
 
   #carouselDesktop {
-    display:none;
+    display: none;
   }
-  
+
   #carouselMobile {
     display: block;
   }
@@ -234,9 +236,9 @@ img.logoNav {
   }
 
   #carouselDesktop {
-    display:none;
+    display: none;
   }
-  
+
   #carouselMobile {
     display: block;
   }
@@ -249,6 +251,7 @@ img.logoNav {
     padding: 10px 10px 10px 20px;
     margin: 0px 10px 0px 10px;
   }
+
   .texto {
     writing-mode: horizontal-tb;
     transform: rotate(0deg);
@@ -256,4 +259,16 @@ img.logoNav {
     font-size: 100%;
     padding: 100px 0px 10px 18px;
   }
+}
+
+
+/* Toast */
+.Toastify__progress-bar--default {
+  background: #463f55 !important;
+
+}
+
+.Toastify__toast--default {
+  background-color: #71668a !important;
+  color: white !important;
 }
