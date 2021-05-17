@@ -112,6 +112,7 @@ img.logoNav {
   padding-left: 70px;
   font-size: 25px;
   color: rgb(71, 69, 69);
+  /* background-image: url("/assets/img/fondolavanda.jpg"); */
 }
 
 .fondoDivBody {
@@ -129,6 +130,12 @@ img.logoNav {
   padding-right: 50px;
   white-space: pre;
 
+}
+
+.imagen {
+  padding-right: 60px;
+  padding-left: 60px;
+  height: 450px;
 }
 
 
@@ -224,6 +231,12 @@ img.logoNav {
     padding: 10px 30px 10px 30px;
     margin: 0px 10px 0px 10px;
   }
+  
+  .imagen {
+    padding-right: 0px;
+    padding-left: 0px;
+    height: 450px;
+  }
 
 }
 
@@ -277,6 +290,12 @@ img.logoNav {
   .textoHorizontalBody {
     padding: 10px 10px 10px 20px;
     margin: 0px 10px 0px 10px;
+  }
+
+  .imagen {
+    padding-right: 0px;
+    padding-left: 0px;
+    height: 450px;
   }
 }
 
