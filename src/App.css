@@ -103,17 +103,42 @@ img.logoNav {
   height: 100%;
 }
 
+/* CONTENT BODY
+-------------------------------------------------- */
+
+.textoHorizontalBody {
+  padding-top: 60px;
+  padding-bottom: 70px;
+  padding-left: 70px;
+  font-size: 25px;
+  color: rgb(71, 69, 69);
+  background-image: ;
+}
+
+.fondoDivBody {
+  background-color: #efefef;
+  margin-top: 60px;
+  margin-bottom: 50px;
+}
+
+.textoBody {
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  color: rgb(71, 69, 69);
+  font-size: 100%;
+  padding-bottom: 80px;
+  padding-right: 50px;
+  white-space: pre;
+
+}
+
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
 
 /* Center align the text within the three columns below the carousel */
 
-
-.marketing {
-  margin-top: 70px;
-}
-
+/* 
 .marketing .col-lg-4 {
   margin-bottom: 1.5rem;
   text-align: center;
@@ -127,7 +152,7 @@ img.logoNav {
 .marketing .col-lg-4 p {
   margin-right: .75rem;
   margin-left: .75rem;
-}
+} */
 
 /* Featurettes
 ------------------------- */
@@ -147,37 +172,7 @@ img.logoNav {
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
-/* 
-@media (min-width: 40em) {
 
-  .carousel-caption p {
-    margin-bottom: 1.25rem;
-    font-size: 1.25rem;
-    line-height: 1.4;
-  }
-
-  .featurette-heading {
-    font-size: 50px;
-  }
-
-  .carouselTamanio {
-    height: 513px;
-
-  }
-}
-
-
-
-@media (min-width: 62em) {
-  .featurette-heading {
-    margin-top: 7rem;
-  }
-
-  .carouselTamanio {
-    height: 513px;
-
-  }
-} */
 
 @media (max-width: 576px) {
   .carouselTamanio {

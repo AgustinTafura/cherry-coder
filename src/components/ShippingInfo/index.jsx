@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import './index.css'
 
-
 const ShippingInfo = () => {
 
   const [windowWidth, setWindowWidth] = useState()
@@ -11,9 +10,9 @@ const ShippingInfo = () => {
   })
 
   return (
-    <div id='shipping-container' className='container-fluid d-flex justify-content-center'>
+    <div id='shipping-container' className='d-flex justify-content-center'>
       <div className='container row '>
-        <div className='col-6 shipping-left d-flex justify-content-center no-gutters'>
+        <div className='col-12 col-md-6 shipping-left d-flex justify-content-center no-gutters'>
           <i className="fas fa-truck"></i>
           <div className='shipping-info'>
             <div>ENVÍOS A TODO EL PAÍS</div>
@@ -21,7 +20,7 @@ const ShippingInfo = () => {
             <div>Retiro en ……. de Lunes a Viernes</div>
           </div>
         </div>
-        <div className='col-6 shipping-right d-flex justify-content-center no-gutters'>
+        <div className='col-12 col-md-6 shipping-right d-flex justify-content-center no-gutters'>
           <i className="fas fa-hands-helping"></i>
           <div className='shipping-info'>
             <div>REALIZAMOS VENTAS MAYORISTAS</div>

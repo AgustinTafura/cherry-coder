@@ -9,6 +9,7 @@ import ContactBubble from './components/ContactBubble';
 import InstagramCarousel from './components/InstagramCarousel';
 import SuscriptionEmail from './components/SuscriptionEmail';
 import ShippingInfo from './components/ShippingInfo';
+import ContentBody from './components/Content2';
 
 function App() {
   return (
@@ -18,10 +19,11 @@ function App() {
       </header>
       <main>
         <CherryCarousel />
-        <ShippingInfo/>
+        <ShippingInfo />
+        <ContentBody />
         <SectionContainer />
-        <SuscriptionEmail/>
-        <InstagramCarousel/>
+        <SuscriptionEmail />
+        <InstagramCarousel />
       </main>
       <FooterContainer />
       <ContactBubble />
