@@ -10,8 +10,13 @@ const ShippingInfo = () => {
   })
 
   return (
+<<<<<<< HEAD
     <div id='shipping-container' className='d-flex justify-content-center'>
       <div className='container row '>
+=======
+    <div id='shipping-container' className={`d-flex justify-content-center`}>
+      <div className={`${windowWidth > 992 ? 'container' : 'container-fluid'} row`}>
+>>>>>>> 3a1f2ac90924816b1de6a2b90e8d5c7eaebc092d
         <div className='col-12 col-md-6 shipping-left d-flex justify-content-center no-gutters'>
           <i className="fas fa-truck"></i>
           <div className='shipping-info'>

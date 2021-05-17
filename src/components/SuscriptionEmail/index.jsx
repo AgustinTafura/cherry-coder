@@ -26,7 +26,6 @@ const SuscriptionEmail = () => {
       const emailData = {
         from_email: inputEmail.value,
         to_email: 'agustintafura@hotmail.com',
-
       }
 
       emailjs.send(
