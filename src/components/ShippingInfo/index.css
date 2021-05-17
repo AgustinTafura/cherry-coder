@@ -1,0 +1,23 @@
+#shipping-container {
+    margin: 4rem auto 4rem auto;
+    ;
+}
+
+.shipping-left {
+    padding: 1rem;
+    border-right: #c4c4c4;
+    border-right-style: solid;
+    border-width: 2px;
+}
+
+.shipping-right {
+    padding: 1rem;
+}
+
+#shipping-container i {
+    font-size: 4rem;
+}
+
+.shipping-info {
+    margin: auto 1rem auto 1rem
+}

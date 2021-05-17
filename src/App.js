@@ -8,6 +8,7 @@ import CherryCarousel from './components/Carousel';
 import ContactBubble from './components/ContactBubble';
 import InstagramCarousel from './components/InstagramCarousel';
 import SuscriptionEmail from './components/SuscriptionEmail';
+import ShippingInfo from './components/ShippingInfo';
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
         <Navbar />
       </header>
       <main>
-        {/* <CherryCarousel /> */}
+        <CherryCarousel />
+        <ShippingInfo/>
         <SectionContainer />
         <SuscriptionEmail/>
         <InstagramCarousel/>
