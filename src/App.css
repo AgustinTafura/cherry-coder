@@ -112,7 +112,6 @@ img.logoNav {
   padding-left: 70px;
   font-size: 25px;
   color: rgb(71, 69, 69);
-  background-image: ;
 }
 
 .fondoDivBody {
@@ -213,6 +212,19 @@ img.logoNav {
     padding: 100px 0px 10px 20px;
   }
 
+  .textoBody {
+    writing-mode: horizontal-tb;
+    transform: rotate(0deg);
+    color: rgb(71, 69, 69);
+    font-size: 100%;
+    padding:  0px 10px 18px;
+  }
+
+  .textoHorizontalBody {
+    padding: 10px 30px 10px 30px;
+    margin: 0px 10px 0px 10px;
+  }
+
 }
 
 
@@ -253,6 +265,18 @@ img.logoNav {
     color: rgb(71, 69, 69);
     font-size: 100%;
     padding: 100px 0px 10px 18px;
+  }
+
+  .textoBody {
+    writing-mode: horizontal-tb;
+    transform: rotate(0deg);
+    color: rgb(71, 69, 69);
+    font-size: 100%;
+    padding: 30px 10px 10px 20px;
+  }
+  .textoHorizontalBody {
+    padding: 10px 10px 10px 20px;
+    margin: 0px 10px 0px 10px;
   }
 }
 
