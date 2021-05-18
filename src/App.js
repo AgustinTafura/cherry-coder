@@ -10,6 +10,7 @@ import InstagramCarousel from './components/InstagramCarousel';
 import SuscriptionEmail from './components/SuscriptionEmail';
 import ShippingInfo from './components/ShippingInfo';
 import ContentBody from './components/Content2';
+import CardsProducts from './components/CardsPorducts';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <CherryCarousel />
         <ShippingInfo />
         <ContentBody />
+        <CardsProducts />
         <SectionContainer />
         <SuscriptionEmail />
         <InstagramCarousel />

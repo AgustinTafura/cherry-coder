@@ -49,7 +49,8 @@ img.logoNav {
   display: none;
 }
 
-/* Since positioning the image, we need to help out the caption */
+/* NOVEDADES */
+
 .carousel-caption {
   bottom: 3rem;
   z-index: 10;
@@ -84,13 +85,10 @@ img.logoNav {
   margin-top: 32px;
 }
 
-
 .fondoDiv {
   background-color: #efefef;
-
 }
 
-/* Declare heights because of positioning of img element */
 .carousel-item {
   height: 32rem;
 }
@@ -109,10 +107,15 @@ img.logoNav {
 .textoHorizontalBody {
   padding-top: 60px;
   padding-bottom: 70px;
-  padding-left: 70px;
-  font-size: 25px;
-  color: rgb(71, 69, 69);
-  /* background-image: url("/assets/img/fondolavanda.jpg"); */
+  padding-right: 0px;
+  padding-left: 20px;
+  margin-left:60px;
+  color: white;
+  
+}
+.textoTamanio {
+  font-size: 150%;
+  font-weight: 300;
 }
 
 .fondoDivBody {
@@ -133,11 +136,97 @@ img.logoNav {
 }
 
 .imagen {
-  padding-right: 60px;
-  padding-left: 60px;
+  padding-left: 0px;
   height: 450px;
 }
 
+.divVacio {
+  padding:0px;
+}
+
+/* CUADROS DE TEXTO */
+.divCuadrotexto {
+  margin-bottom: 50px;
+}
+
+.fondoDivGris {
+  background-color: #efefef;
+}
+
+/* CARDS */
+
+.profile-card-2 {
+  max-width: 400px;
+  background-color: #FFF;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+  background-position: center;
+  overflow: hidden;
+  position: relative;
+  margin: 10px auto;
+  cursor: pointer;
+  /* border-radius: 10px; */
+}
+
+.profile-card-2 img {
+  transition: all linear 0.25s;
+}
+
+.profile-card-2 .profile-name {
+  position: absolute;
+  left: 30px;
+  bottom: 70px;
+  font-size: 30px;
+  color: #FFF;
+  text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+  font-weight: normal;
+  transition: all linear 0.25s;
+}
+
+.profile-card-2 .profile-icons {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  color: white;
+  transition: all linear 0.25s;
+}
+
+.profile-card-2 .profile-username {
+  position: absolute;
+  bottom: 50px;
+  left: 30px;
+  color: #FFF;
+  font-size: 13px;
+  transition: all linear 0.25s;
+}
+
+.profile-card-2 .profile-icons .fa {
+  margin: 5px;
+}
+
+.profile-card-2:hover img {
+  filter: grayscale(100%);
+}
+
+.profile-card-2:hover .profile-name {
+  bottom: 80px;
+}
+
+.profile-card-2:hover .profile-username {
+  bottom: 60px;
+}
+
+.profile-card-2:hover .profile-icons {
+  right: 40px;
+}
+
+.cardsAjustes {
+  margin-right:40px;
+  margin-left: 40px;
+}
+
+.cardsAjusteEspacio {
+  margin-right:60px;
+}
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
@@ -236,6 +325,7 @@ img.logoNav {
     padding-right: 0px;
     padding-left: 0px;
     height: 450px;
+    margin-top: 20px;
   }
 
 }
@@ -296,6 +386,7 @@ img.logoNav {
     padding-right: 0px;
     padding-left: 0px;
     height: 450px;
+    margin-top: 20px;
   }
 }
 
