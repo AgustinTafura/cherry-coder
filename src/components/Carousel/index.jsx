@@ -4,12 +4,12 @@ const CherryCarousel = () => {
   return (
     <div className="row fondoDiv">
       <div className="col-lg-1">
-        <h3 className="texto"><strong>01               HOME</strong></h3>
+        <h3 className="texto"><strong>01                HOME</strong></h3>
       </div>
       <div className="col-lg-4 textoHorizontal">
         <h3>NOVEDADES</h3>
         <h6>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</h6>
-        <p className="textoChico"><strong>CONTACTO</strong></p>
+        <a className="textoChico"><strong>CONTACTO</strong></a>
       </div>
 
       <div className="col-lg-7 carouselTamanio" id="carouselDesktop">

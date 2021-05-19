@@ -83,6 +83,13 @@ img.logoNav {
 .textoChico {
   font-size: 13px;
   margin-top: 32px;
+  text-decoration: none;
+  color: rgb(71, 69, 69);
+}
+
+.textoChico:hover {
+  text-decoration: none !important;
+  color: #71668a !important;
 }
 
 .fondoDiv {
@@ -182,7 +189,7 @@ img.logoNav {
   transition: all linear 0.25s;
 }
 
-.profile-card-2 .profile-icons {
+.profile-card-2 .comprarLink {
   position: absolute;
   bottom: 30px;
   right: 30px;
@@ -199,7 +206,7 @@ img.logoNav {
   transition: all linear 0.25s;
 }
 
-.profile-card-2 .profile-icons .fa {
+.profile-card-2 .comprarLinks {
   margin: 5px;
 }
 
@@ -215,19 +222,39 @@ img.logoNav {
   bottom: 60px;
 }
 
-.profile-card-2:hover .profile-icons {
+.profile-card-2:hover .comprarLink {
   right: 40px;
 }
 
-.cardsAjustes {
-  margin-right:40px;
-  margin-left: 40px;
+.comprarLink {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
 }
+
+.comprarLink:hover {
+  text-decoration: none !important;
+  color: #71668a !important;
+  font-weight: bold;
+}
+
+.profile-name:hover {
+  text-decoration: none !important;
+  color: #71668a !important;
+}
+
+
+/* .cardsAjustes {
+  margin-right:20px;
+  margin-left: 20px;
+} */
 
 .cardsAjusteEspacio {
-  margin-right:60px;
+  margin-left:45px;
 }
-
+.cardsAjusteInicio {
+  margin-left: 60px;
+}
 /* MARKETING CONTENT
 -------------------------------------------------- */
 
@@ -328,6 +355,14 @@ img.logoNav {
     margin-top: 20px;
   }
 
+  .cardsAjusteEspacio {
+    margin-left:0px;
+  }
+  .cardsAjusteInicio {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
 }
 
 
@@ -388,6 +423,16 @@ img.logoNav {
     height: 450px;
     margin-top: 20px;
   }
+
+  .cardsAjusteEspacio {
+    margin-left:0px;
+  }
+  .cardsAjusteInicio {
+    margin-left: 50px;
+    margin-right: 50px;
+
+  }
+
 }
 
 
