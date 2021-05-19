@@ -87,6 +87,12 @@ img.logoNav {
   color: rgb(71, 69, 69);
 }
 
+.textoChico:hover {
+  text-decoration: none;
+  color: #71668a !important;
+  font-weight: bold;
+}
+
 
 .fondoDiv {
   background-color: #efefef;
