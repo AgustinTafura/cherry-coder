@@ -6,7 +6,7 @@ const ContentBody = () => {
         <h3 className="textoBody"><strong>02              ¿QUÉ SON?</strong></h3>
       </div>
 
-      <div className="col-lg-6 textoHorizontalBody" style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/fondolavanda.jpg)` }}>
+      <div className="col-lg-6 textoHorizontalBody" style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/fondolavanda3.png)` }}>
         <h2>¿QUÉ SON?</h2>
         <br /> 
         <h6 className="textoTamanio">Son almohadillas de tela rellenas con semillas y aceite de lavanda que mantienen la temperatura por tiempo prolongado</h6>

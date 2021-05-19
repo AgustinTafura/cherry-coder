@@ -6,7 +6,7 @@ const SectionsContainer = () => {
           <h3 className="textoBody"><strong>04               BENEFICIOS</strong></h3>
         </div>
 
-        <div className="col-lg-10 textoHorizontalBody" style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/fondolavanda.jpg)` }}>
+        <div className="col-lg-10 textoHorizontalBody" style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/fondolavanda1.png)` }}>
           <h2>BENEFICIOS</h2>
           <br />
           <h3>CALOR</h3>
@@ -21,7 +21,7 @@ const SectionsContainer = () => {
           <h3 className="textoBody"><strong>05               MODO DE USO</strong></h3>
         </div>
 
-        <div className="col-lg-10 textoHorizontalBody" style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/fondolavanda.jpg)` }}>
+        <div className="col-lg-10 textoHorizontalBody" style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/fondolavanda2.png)` }}>
           <h2>MODO DE USO</h2>
           <br />
           <h3>CALIENTE</h3>
