@@ -87,10 +87,6 @@ img.logoNav {
   color: rgb(71, 69, 69);
 }
 
-.textoChico:hover {
-  text-decoration: none !important;
-  color: #71668a !important;
-}
 
 .fondoDiv {
   background-color: #efefef;
@@ -236,6 +232,12 @@ img.logoNav {
   text-decoration: none !important;
   color: #71668a !important;
   font-weight: bold;
+}
+
+.profileTexto {
+  color:  #71668a !important;
+  font-weight: bold;
+
 }
 
 .profile-name:hover {
