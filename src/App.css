@@ -165,7 +165,7 @@ img.logoNav {
 /* CARDS */
 
 .profile-card-2 {
-  max-width: 400px;
+  max-width: 395px;
   background-color: #FFF;
   box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
   background-position: center;
@@ -363,14 +363,14 @@ img.logoNav {
     margin-top: 20px;
   }
 
-  .cardsAjusteEspacio {
-    margin-left:0px;
-  }
+
   .cardsAjusteInicio {
     margin-left: 50px;
     margin-right: 50px;
   }
-
+  .profile-card-2 {
+    max-width: 276px;
+  }
 }
 
 
@@ -432,9 +432,7 @@ img.logoNav {
     margin-top: 20px;
   }
 
-  .cardsAjusteEspacio {
-    margin-left:0px;
-  }
+
   .cardsAjusteInicio {
     margin-left: 50px;
     margin-right: 50px;

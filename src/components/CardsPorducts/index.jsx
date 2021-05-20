@@ -18,7 +18,7 @@ const CardsProducts = () => {
               </div>
             </div>
           </div>
-          <div class="col-md-1 cardsAjusteEspacio"></div>
+          <div class="col-md-1  cardsAjusteEspacio"></div>
           <div class="col-md-3 cardsAjustes">
             <div class="profile-card-2">
               <img src={`${process.env.PUBLIC_URL}/assets/img/card2.jpg`} class="img img-responsive" />
