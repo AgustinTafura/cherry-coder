@@ -16,7 +16,7 @@ const SectionsContainer = () => {
           <h6 className="textoTamanio">Alivian el dolor de cabeza, muela, quemaduras, hematomas, vista cansada, fiebre, quemaduras de insectos y desinflaman</h6>
         </div>
       </div>
-      <div div className="row fondoDivGris divCuadrotexto">
+      <div className="row fondoDivGris divCuadrotexto">
         <div className="col-lg-1">
           <h3 className="textoBody"><strong>05               MODO DE USO</strong></h3>
         </div>

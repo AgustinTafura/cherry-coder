@@ -26,3 +26,14 @@ footer a:hover {
     /* padding-bottom: 0.5rem; */
     font-size: small;
 }
+
+#redDistrubuidoresModal .card-header {
+    background-color: #71668a;
+    border-radius: 0px;
+
+}
+
+#redDistrubuidoresModal button.collapsed {
+    color: white;
+
+}
