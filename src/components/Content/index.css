@@ -1,0 +1,8 @@
+.row.no-gutters.divCuadrotexto.fondoDivGris {
+
+    justify-content: space-evenly;
+}
+
+.textoHorizontalBody>div {
+    padding: 1rem;
+}
