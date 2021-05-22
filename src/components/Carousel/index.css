@@ -1,7 +1,21 @@
+#cherryCarousel {
+    margin-top: 5rem;
+}
+
 .row.no-gutters.fondoDiv {
+
     align-self: center;
     justify-content: center;
     text-align: -webkit-center;
+
+}
+
+.row.no-gutters.fondoDiv>div {
+    align-self: center;
+    justify-content: center;
+    text-align: center;
+    text-align: -webkit-center;
+
 }
 
 .row.no-gutters.fondoDiv .textoHorizontal>div {

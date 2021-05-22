@@ -1,9 +1,15 @@
-.row.no-gutters.divCuadrotexto.fondoDivGris {
+.row.no-gutters.fondoDivGris {
 
     justify-content: center;
 }
 
-.divCuadrotexto.fondoDivGris>div {
+.fondoDivGris>div {
+    text-align: center;
+    text-align: -webkit-center;
+    align-self: center;
+}
+
+.fondoDivBody>div {
     text-align: center;
     text-align: -webkit-center;
     align-self: center;
@@ -11,4 +17,14 @@
 
 .textoHorizontalBody>div {
     padding: 1rem;
+    align-self: center;
+}
+
+.textSectionContainer>div {
+    padding: 1rem;
+}
+
+.textoHorizontalBody {
+    background-size: cover;
+    place-content: center;
 }

@@ -2,14 +2,14 @@ import './index.css'
 
 const SectionsContainer = () => {
   return (
-    <div >
+    <>
 
       <div id='beneficio' className="row no-gutters divCuadrotexto fondoDivGris">
         <div className="col-md-1">
           <h3 className="textoBody"><strong>04               BENEFICIOS</strong></h3>
         </div>
 
-        <div className="col-md-9 textoHorizontalBody" style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/fondolavanda1.png)` }}>
+        <div className="col-md-10 textoHorizontalBody" style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/fondolavanda1.png)` }}>
           <div className='textSectionContainer'>
             <h2>BENEFICIOS</h2>
             <br />
@@ -27,7 +27,7 @@ const SectionsContainer = () => {
           <h3 className="textoBody"><strong>05               MODO DE USO</strong></h3>
         </div>
 
-        <div className="col-md-9 textoHorizontalBody" style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/fondolavanda2.png)` }}>
+        <div className="col-md-10 textoHorizontalBody" style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/fondolavanda2.png)` }}>
           <div className='textSectionContainer'>
             <h2>MODO DE USO</h2>
             <br />
@@ -40,7 +40,7 @@ const SectionsContainer = () => {
         </div>
       </div>
 
-    </div>
+    </>
 
 
   )

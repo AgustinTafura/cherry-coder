@@ -1,8 +1,8 @@
-import { Carousel } from 'react-bootstrap';
 import './index.css'
+import { Carousel } from 'react-bootstrap';
 const CherryCarousel = () => {
   return (
-    <div className="row no-gutters fondoDiv">
+    <div id='cherryCarousel' className="row no-gutters fondoDiv">
       <div className="col-md-1">
         <h3 className="texto"><strong>01                HOME</strong></h3>
       </div>
