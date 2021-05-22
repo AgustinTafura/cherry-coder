@@ -21,8 +21,8 @@ function App() {
       <main>
         <CherryCarousel />
         <ShippingInfo />
-        {/* <ContentBody /> */}
-        {/* <CardsProducts /> */}
+        <ContentBody />
+        <CardsProducts />
         <SectionContainer />
         <SuscriptionEmail />
         <InstagramCarousel />
