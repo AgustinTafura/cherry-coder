@@ -61,7 +61,7 @@ const FooterContainer = () => {
                   <div className="card-header" id="headingOne" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                     <h5 className="mb-0" >
                       <button className="btn collapsed" >
-                        BUENO AIRES
+                        BUENOS AIRES
                     </button>
                     </h5>
                   </div>

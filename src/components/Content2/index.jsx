@@ -16,7 +16,7 @@ const ContentBody = () => {
         <img src={`${process.env.PUBLIC_URL}/assets/img/imagen4.jpg`} className="col-4 imagen" />
       </div> */}
 
-      <div id='' className="row no-gutters divCuadrotexto fondoDivGris">
+      <div id='que-son' className="row no-gutters divCuadrotexto fondoDivGris">
         <div className="col-md-1">
           <h3 className="textoBody"><strong>02              ¿QUÉ SON?</strong></h3>
         </div>
