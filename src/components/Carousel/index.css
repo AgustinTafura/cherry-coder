@@ -1,0 +1,9 @@
+.row.no-gutters.fondoDiv {
+    align-self: center;
+    justify-content: center;
+    text-align: -webkit-center;
+}
+
+.row.no-gutters.fondoDiv .textoHorizontal>div {
+    padding: 0 1rem 0 1rem;
+}

@@ -1,6 +1,12 @@
 .row.no-gutters.divCuadrotexto.fondoDivGris {
 
-    justify-content: space-evenly;
+    justify-content: center;
+}
+
+.divCuadrotexto.fondoDivGris>div {
+    text-align: center;
+    text-align: -webkit-center;
+    align-self: center;
 }
 
 .textoHorizontalBody>div {

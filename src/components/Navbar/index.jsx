@@ -4,9 +4,9 @@ import './index.css'
 const Navbar = () => {
     const sections = [
         'que-son',
-        'modo-de-uso',
         'modelos',
-        'mayoristas',
+        'beneficio',
+        'modo-de-uso',
         'contacto'
     ]
 
