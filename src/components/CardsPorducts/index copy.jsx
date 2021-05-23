@@ -6,7 +6,7 @@ const CardsProducts = () => {
     { pic: 'card3.jpg', name: 'Almohadilla Multiuso' },
     { pic: 'card4.jpg', name: 'Almohadilla Lumbar' },
     { pic: 'card5.jpg', name: 'Almohadilla Cervical' },
-    { pic: 'card6.jpg', name: 'Almohadilla Oficina para manos' },
+    { pic: 'card6.jpg', name: 'Almohadilla para manos' },
   ]
 
   products.map((product, index) => {
@@ -58,7 +58,6 @@ const CardsProducts = () => {
               </div>
             </div>
           </div>
-
         </div>
       </div>
       <div className="col-lg-1 textoBody">
@@ -94,7 +93,7 @@ const CardsProducts = () => {
           <div className="col-md-3 cardsAjustes">
             <div className="profile-card-2">
               <img src={`${process.env.PUBLIC_URL}/assets/img/card6.jpg`} className="img img-responsive" />
-              <div className="profile-name">Almohadilla Oficina para manos</div>
+              <div className="profile-name">Almohadilla para manos</div>
               <div className="profile-icons">
                 <a href="#">
                   <i className="comprarLink">Comprar</i>

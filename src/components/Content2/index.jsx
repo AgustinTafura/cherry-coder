@@ -24,7 +24,7 @@ const ContentBody = () => {
         <div className="col-md-10 textoHorizontalBody row no-gutters" style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/assets/img/fondolavanda1.png)` }}>
           <div className='textSectionContainer col-md-7 col-xl-8'>
             <div>
-              <h2>¿QUÉ SON?</h2>
+              <h2 class="tituloMobile">¿QUÉ SON?</h2>
               <br />
               <h6 className="textoTamanio">Son almohadillas de tela rellenas con semillas y aceite de lavanda que mantienen la temperatura por tiempo prolongado</h6>
               <h6 className="textoTamanio">Se usan a temperatura ambiente, calientes o frías según la necesidad.</h6>

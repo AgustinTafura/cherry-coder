@@ -3,12 +3,12 @@ import './index.css'
 const CardsProducts = () => {
 
   const products = [
-    { pic: 'card1.jpg', name: 'Almohadilla Ocular' },
-    { pic: 'card2.jpg', name: 'Almohadilla Menstrual' },
-    { pic: 'card3.jpg', name: 'Almohadilla Multiuso' },
-    { pic: 'card4.jpg', name: 'Almohadilla Lumbar' },
-    { pic: 'card5.jpg', name: 'Almohadilla Cervical' },
-    { pic: 'card6.jpg', name: 'Almohadilla Oficina para manos' },
+    { pic: 'card12.jpg', name: 'Almohadilla Ocular' },
+    { pic: 'card22.jpg', name: 'Almohadilla Menstrual' },
+    { pic: 'card32.jpg', name: 'Almohadilla Multiuso' },
+    { pic: 'card42.jpg', name: 'Almohadilla Lumbar' },
+    { pic: 'card52.jpg', name: 'Almohadilla Cervical' },
+    { pic: 'card62.jpg', name: 'Almohadilla para manos' },
   ]
 
 
@@ -26,12 +26,10 @@ const CardsProducts = () => {
               <div className="col-sm-6 col-md-4 cardProduct">
                 <div className="profile-card-2">
                   <img src={`${process.env.PUBLIC_URL}/assets/img/${product.pic}`} className="img img-responsive" />
-                  <div className="profile-name">{product.name}</div>
-                  <i className="comprarLink">Comprar</i>
-                  {/* <div className="profile-icons">
-                    <a href="#">
-                    </a>
-                  </div> */}
+                  <div class="boxProduct">
+                    <div className="profile-name ">{product.name}</div>
+                    <i className="comprarLink">Comprar</i>
+                  </div>
                 </div>
               </div>
             )

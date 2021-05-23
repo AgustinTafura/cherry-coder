@@ -11,3 +11,10 @@
 .cardProduct img {
     width: 100%;
 }
+
+.boxProduct {
+  background-color:black;
+  height: 11rem;
+  width: 100%;
+  
+}
