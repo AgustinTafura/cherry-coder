@@ -15,8 +15,8 @@ const ShippingInfo = () => {
         <div className='col-12 col-md-6 shipping-left d-flex justify-content-center no-gutters'>
           <i className="fas fa-truck"></i>
           <div className='shipping-info'>
-            <div>ENVÍOS A TODO EL PAÍS</div>
-            <div>Entre x/x días hábiles /</div>
+            <div>ENVÍOS A TODO EL PAÍS POR CORRERO ARGENTINO</div>
+            {/* <div>Entre x/x días hábiles /</div> */}
             <div>Retiro en ……. de Lunes a Viernes</div>
           </div>
         </div>

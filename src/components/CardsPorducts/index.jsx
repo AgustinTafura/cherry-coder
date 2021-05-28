@@ -9,6 +9,8 @@ const CardsProducts = () => {
     { pic: 'card42.jpg', name: 'Almohadilla Lumbar' },
     { pic: 'card52.jpg', name: 'Almohadilla Cervical' },
     { pic: 'card62.jpg', name: 'Almohadilla para manos' },
+    { pic: 'card92.jpg', name: 'Almohadilla Kids' },
+    { pic: 'card72.jpg', name: 'Manta Soft' },
   ]
 
 

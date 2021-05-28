@@ -12,12 +12,12 @@ const FooterContainer = () => {
             <div>CONTACTO</div>
           </h3>
           <div id="telefono" className="col-md-3">
-            <i className="fab fa-whatsapp" aria-hidden="true"></i>
+            <i className="fab fa-whatsapp" aria-hidden="true" target="_blank"></i>
             <div itemScope="" itemType="https://schema.org/LocalBusiness">
               <div>WhatsApp</div>
 
               <span itemProp="telephone">
-                <a href="https://api.whatsapp.com/send?phone=5493544589440&amp;text=&amp;source=&amp;data=&amp;app_absent=">
+                <a href="https://api.whatsapp.com/send?phone=5493544589440&amp;text=&amp;source=&amp;data=&amp;app_absent=" target="_blank">
                   (35) 4458-9440
                     </a>
               </span>

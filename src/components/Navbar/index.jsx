@@ -49,8 +49,8 @@ const Navbar = () => {
                     </div>
 
                     <div className='social-media d-none d-lg-block col-1 text-center'>
-                        <a href="https://www.instagram.com/cherryalmohadillas/" className="m-2 h4"><i className="fab fa-instagram"></i></a>
-                        <a href="https://api.whatsapp.com/send?phone=5493544589440&amp;text=&amp;source=&amp;data=&amp;app_absent=" className="m-2 h4"><i className="fab fa-whatsapp"></i></a>
+                        <a href="https://www.instagram.com/cherryalmohadillas/" target="_blank" className="m-2 h4"><i className="fab fa-instagram"></i></a>
+                        <a href="https://api.whatsapp.com/send?phone=5493544589440&amp;text=&amp;source=&amp;data=&amp;app_absent=" target="_blank" className="m-2 h4"><i className="fab fa-whatsapp"></i></a>
                     </div>
                 </div>
             </nav>

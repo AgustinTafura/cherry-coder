@@ -6,7 +6,7 @@ import { useState } from "react";
 
 const InstagramCarousel = () => {
 
-  const images = ['imagen1.jpg', 'imagen2.jpg', 'imagen3.jpg', 'imagenc1.jpg', 'imagenc2.jpg', 'imagenc3.jpg', 'IMG_0023.JPG', 'IMG_0022.JPG', 'IMG_0024.JPG']
+  const images = [ 'imagenc1.jpg', 'imagenc2.jpg', 'imagenc3.jpg', 'IMG_5749.jpg', 'IMG_0023.JPG', 'IMG_0022.JPG', 'IMG_0024.JPG',]
   //setea la cantidad de imagenes a mostrar en el carousell de instagram
   const [slidesToShow, setSlidesToShow] = useState(2)
   const quantitySlidesToShow = () => {
@@ -47,7 +47,7 @@ const InstagramCarousel = () => {
             <div key={index} >
               <div className='image-container' >
 
-                <a href="https://www.instagram.com/cherryalmohadillas/">
+                <a href="https://www.instagram.com/cherryalmohadillas/" target="_blank">
                   <img alt='' src={`${process.env.PUBLIC_URL}/assets/img/${img}`}></img>
                 </a>
 
@@ -59,7 +59,7 @@ const InstagramCarousel = () => {
         })}
       </Slider>
       <div id='button-ig'>
-        <a href="https://www.instagram.com/cherryalmohadillas">
+        <a href="https://www.instagram.com/cherryalmohadillas" target="_blank">
           <button className="btn row no-gutters col-6 col-sm-4 col-md-3 col-lg-2">
             <div className='col-2'>
               <i className="fab fa-instagram"></i>

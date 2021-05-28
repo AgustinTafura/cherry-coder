@@ -9,8 +9,8 @@ const CherryCarousel = () => {
       <div className="col-sm-8 col-md-3 textoHorizontal">
         <div>
           <h3>NOVEDADES</h3>
-          <h6>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</h6>
-          <a href='#contacto' className="textoChico"><strong>CONTACTO</strong></a>
+          <h6>¡Nuevo producto! Mantas individuales polar ideales para tener como compañeras durante este invierno, en la cama, sillon, mesa, o donde desees. A parte de súper calentitas decoran tus espacios.</h6>
+          <a href="https://www.instagram.com/cherrymantas/" target="_blank" className="textoChico"><strong>VER MÁS</strong></a>
 
         </div>
 
@@ -21,19 +21,19 @@ const CherryCarousel = () => {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src={`${process.env.PUBLIC_URL}/assets/img/imagen1.jpg`}
+              src={`${process.env.PUBLIC_URL}/assets/img/imagen11.jpg`}
             />
           </Carousel.Item>
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src={`${process.env.PUBLIC_URL}/assets/img/imagen2.jpg`}
+              src={`${process.env.PUBLIC_URL}/assets/img/imagen12.jpg`}
             />
           </Carousel.Item>
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src={`${process.env.PUBLIC_URL}/assets/img/imagen3.jpg`}
+              src={`${process.env.PUBLIC_URL}/assets/img/imagen13.jpg`}
             />
           </Carousel.Item>
         </Carousel>
@@ -43,19 +43,19 @@ const CherryCarousel = () => {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src={`${process.env.PUBLIC_URL}/assets/img/imagenc1.jpg`}
+              src={`${process.env.PUBLIC_URL}/assets/img/imagen11c.jpg`}
             />
           </Carousel.Item>
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src={`${process.env.PUBLIC_URL}/assets/img/imagenc2.jpg`}
+              src={`${process.env.PUBLIC_URL}/assets/img/imagen12c.jpg`}
             />
           </Carousel.Item>
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src={`${process.env.PUBLIC_URL}/assets/img/imagenc3.jpg`}
+              src={`${process.env.PUBLIC_URL}/assets/img/imagen13c.jpg`}
             />
           </Carousel.Item>
         </Carousel>
