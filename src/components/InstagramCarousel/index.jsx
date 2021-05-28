@@ -6,7 +6,7 @@ import { useState } from "react";
 
 const InstagramCarousel = () => {
 
-  const images = [ 'imagenc1.jpg', 'imagenc2.jpg', 'imagenc3.jpg', 'IMG_5749.jpg', 'IMG_0023.JPG', 'IMG_0022.JPG', 'IMG_0024.JPG',]
+  const images = [ 'imagenc1.jpg', 'imagenc2.jpg', 'imagenc3.jpg', 'IMG_57492.jpg', 'IMG_0023.JPG', 'IMG_0022.JPG', 'IMG_0024.JPG',]
   //setea la cantidad de imagenes a mostrar en el carousell de instagram
   const [slidesToShow, setSlidesToShow] = useState(2)
   const quantitySlidesToShow = () => {
