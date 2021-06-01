@@ -11,6 +11,7 @@ const CardsProducts = () => {
     { pic: 'card62.jpg', name: 'Almohadilla para manos' },
     { pic: 'card92.jpg', name: 'Almohadilla Kids' },
     { pic: 'card72.jpg', name: 'Manta Soft' },
+    { pic: 'card82.jpg', name: 'Antifaz Polar Soft' },
   ]
 
 
