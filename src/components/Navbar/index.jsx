@@ -5,7 +5,7 @@ const Navbar = () => {
     const sections = [
         'que-son',
         'modelos',
-        'beneficio',
+        'beneficios',
         'modo-de-uso',
         'contacto'
     ]

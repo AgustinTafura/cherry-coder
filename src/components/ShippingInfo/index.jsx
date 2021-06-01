@@ -17,14 +17,14 @@ const ShippingInfo = () => {
           <div className='shipping-info'>
             <div>ENVÍOS A TODO EL PAÍS POR CORRERO ARGENTINO</div>
             {/* <div>Entre x/x días hábiles /</div> */}
-            <div>Retiro en ……. de Lunes a Viernes</div>
+            {/* <div>Retiro en ……. de Lunes a Viernes</div> */}
           </div>
         </div>
         <div className='col-12 col-md-6 shipping-right d-flex justify-content-center no-gutters'>
           <i className="fas fa-hands-helping"></i>
           <div className='shipping-info'>
             <div>REALIZAMOS VENTAS MAYORISTAS</div>
-            <div>Contactactanos para más info a:</div>
+            <div>Contactanos</div>
           </div>
           <div>
 
