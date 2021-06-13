@@ -4,7 +4,7 @@ const SectionsContainer = () => {
   return (
     <>
 
-      <div id='beneficio' className="row no-gutters divCuadrotexto fondoDivGris">
+      <div id='beneficios' className="row no-gutters divCuadrotexto fondoDivGris">
         <div className="col-md-1">
           <h3 className="textoBody"><strong>04               BENEFICIOS</strong></h3>
         </div>

@@ -25,6 +25,17 @@
     margin: auto 1rem auto 1rem
 }
 
+.shipping-info a {
+    text-decoration: none;
+    color: #71668a;
+}
+
+.shipping-info a:hover {
+    text-decoration: none;
+    font-weight: bolder;
+    color: #71668a;
+}
+
 @media (min-width: 768px) {
 
     .shipping-left {
