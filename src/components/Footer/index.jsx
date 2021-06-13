@@ -19,7 +19,7 @@ const FooterContainer = () => {
               <span itemProp="telephone">
                 <a href="https://api.whatsapp.com/send?phone=5493544589440&amp;text=&amp;source=&amp;data=&amp;app_absent=" target="_blank">
                   (35) 4458-9440
-                    </a>
+                </a>
               </span>
             </div>
           </div>
@@ -33,7 +33,7 @@ const FooterContainer = () => {
             </address>
           </div>
 
-          <div id="email" className="col-md-3">
+          <div id="email" className="col-md-3 overflow-hidden">
             <i className="far fa-envelope" aria-hidden="true"></i>
             <div>
               <div>Correo electrónico</div>
@@ -62,7 +62,7 @@ const FooterContainer = () => {
                     <h5 className="mb-0" >
                       <button className="btn collapsed" >
                         BUENOS AIRES
-                    </button>
+                      </button>
                     </h5>
                   </div>
 
@@ -79,7 +79,7 @@ const FooterContainer = () => {
                     <h5 className="mb-0" >
                       <button className="btn collapsed" >
                         CORDOBA
-                    </button>
+                      </button>
                     </h5>
                   </div>
                   <div id="collapseTwo" className="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
@@ -100,7 +100,7 @@ const FooterContainer = () => {
                     <h5 className="mb-0" >
                       <button className="btn collapsed" >
                         CORRIENTES
-                    </button>
+                      </button>
                     </h5>
                   </div>
                   <div id="collapseThree" className="collapse" aria-labelledby="headingThree" data-parent="#accordion">
@@ -116,7 +116,7 @@ const FooterContainer = () => {
                     <h5 className="mb-0" >
                       <button className="btn collapsed" >
                         MENDOZA
-                    </button>
+                      </button>
                     </h5>
                   </div>
                   <div id="collapseFour" className="collapse" aria-labelledby="headingFour" data-parent="#accordion">

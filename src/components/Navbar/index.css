@@ -43,6 +43,9 @@ ul a:hover {
 }
 
 /* SocialMedia */
+.social-media {
+    text-align-last: right;
+}
 
 .social-media i:hover {
     transform: scale(1.3);
