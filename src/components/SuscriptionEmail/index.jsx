@@ -2,9 +2,11 @@ import emailjs from 'emailjs-com';
 import { ToastContainer, toast } from 'react-toastify';
 import './index.css'
 import 'react-toastify/dist/ReactToastify.css';
+import { useState } from 'react';
 
 const SuscriptionEmail = () => {
 
+  const [mailSent, setMailSent] = useState(0)
 
   const validateEmail = (email) => {
     const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
@@ -15,7 +17,8 @@ const SuscriptionEmail = () => {
   const enviarContactMail = (e) => {
     var buttomSubmit = e.nativeEvent.submitter
     var inputEmail = e.nativeEvent.srcElement[0]
-    console.log(e)
+    var radioUser = e.nativeEvent.srcElement[2].value ? e.nativeEvent.srcElement[2].value : e.nativeEvent.srcElement[3].value
+
     e.preventDefault()
     e.stopPropagation()
     if (buttomSubmit.classList.contains('disabled')) {
@@ -26,22 +29,28 @@ const SuscriptionEmail = () => {
       const emailData = {
         from_email: inputEmail.value,
         to_email: 'agustintafura@hotmail.com',
+        user_type: radioUser
       }
 
-      emailjs.send(
-        'service_wpi3el2',
-        'template_94btwpw',
-        emailData,
-        'user_d5kbEdnEX8hB4qeX7oMCf',
-      ).then((result) => {
-        toast("¡Gracias! Registramos tu Email")
-      }).catch((err) => {
-        console.log(err)
-        toast.error("Error de Registro, inténtalo nuevamente")
-      })
+      if (mailSent < 3) {
+        emailjs.send(
+          'service_wpi3el2',
+          'template_94btwpw',
+          emailData,
+          'user_d5kbEdnEX8hB4qeX7oMCf',
+        ).then((result) => {
+          toast("¡Gracias! Registramos tu Email")
+          setMailSent(mailSent + 1)
+        }).catch((err) => {
+          console.log(err)
+          toast.error("Error de Registro, inténtalo nuevamente")
+        })
+      }
 
 
     }
+
+
 
 
 
@@ -67,6 +76,19 @@ const SuscriptionEmail = () => {
           <form action="" onSubmit={enviarContactMail} className='row'>
             <input id='contact-email' type="email" className='col-6 ' placeholder='Ingresa tu mail' required />
             <button id='submit-button' className='btn btn-dark col-4 disabled' action='submit' >Suscribirse</button>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="radioUser" value='PROVEEDOR' id="radioUser1" checked />
+              <label class="form-check-label" for="radioUser1">
+                Proveedor
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="radioUser" value='CLIENTE' id="radioUser2" />
+              <label class="form-check-label" for="radioUser2">
+                Cliente
+              </label>
+            </div>
+
           </form>
         </div>
 

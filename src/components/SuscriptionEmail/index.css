@@ -25,3 +25,39 @@
     font-size: 12px;
 }
 
+.form-check-label {
+    padding-top: 0.8rem;
+}
+
+.form-check {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+input[type='radio']:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: 8.5px;
+
+    position: relative;
+    background-color: #d1d3d1;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+
+}
+
+input[type='radio']:checked:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: 8.5px;
+    position: relative;
+    background-color: var(--primary);
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
