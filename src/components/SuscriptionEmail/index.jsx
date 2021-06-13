@@ -28,7 +28,7 @@ const SuscriptionEmail = () => {
 
       const emailData = {
         from_email: inputEmail.value,
-        to_email: 'agustintafura@hotmail.com',
+        to_email: 'solbruzzone@hotmail.com',
         user_type: radioUser
       }
 
@@ -77,9 +77,9 @@ const SuscriptionEmail = () => {
             <input id='contact-email' type="email" className='col-6 ' placeholder='Ingresa tu mail' required />
             <button id='submit-button' className='btn btn-dark col-4 disabled' action='submit' >Suscribirse</button>
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="radioUser" value='PROVEEDOR' id="radioUser1" checked />
+              <input class="form-check-input" type="radio" name="radioUser" value='MAYORISTA' id="radioUser1" checked />
               <label class="form-check-label" for="radioUser1">
-                Proveedor
+                Mayorista
               </label>
             </div>
             <div class="form-check">
