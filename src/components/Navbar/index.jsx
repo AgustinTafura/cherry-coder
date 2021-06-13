@@ -49,6 +49,7 @@ const Navbar = () => {
                     </div>
 
                     <div className='social-media d-none d-lg-block col-1 text-center'>
+                        <a href="#" data-toggle="modal" data-placement="bottom" title="Donde encontrarnos" data-target="#redDistrubuidoresModal" target="_blank" className="m-2 h4"><i class="fas fa-shopping-bag"></i></a>
                         <a href="https://www.instagram.com/cherryalmohadillas/" target="_blank" className="m-2 h4"><i className="fab fa-instagram"></i></a>
                         <a href="https://api.whatsapp.com/send?phone=5493544589440&amp;text=&amp;source=&amp;data=&amp;app_absent=" target="_blank" className="m-2 h4"><i className="fab fa-whatsapp"></i></a>
                     </div>
