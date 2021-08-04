@@ -2,7 +2,7 @@
   "name": "cherry-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://AgustinTafura.github.io/cherry-coder",
+  "homepage": "http://cherryalmohadillas.com.ar",
   "dependencies": {
     "@popperjs/core": "^2.9.2",
     "@testing-library/jest-dom": "^5.12.0",
@@ -22,7 +22,7 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "predeploy": "npm run build",
+    "predeploy": "npm run build && echo cherryalmohadillas.com.ar > ./build/CNAME",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
